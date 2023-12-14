@@ -3,7 +3,6 @@ const sequelize = new Sequelize('mysql://root:qwerty@localhost:3306/joga_sequeli
 
 const models = require('../models')
 
-
 const Article = require('../models/article')(sequelize, Sequelize.DataTypes)
 
 const getAllArticles = (req, res) => {
