@@ -23,6 +23,7 @@ app.use('/', articleRouter)
 app.use('/', authorRouter)
 
 app.use('/article', articleRouter)
+app.use('/admin/article', articleRouter)
 
 
 
